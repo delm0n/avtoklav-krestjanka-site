@@ -5,11 +5,11 @@
     >
       <picture v-if="mobile"
         ><source
-          srcset="/uploadupdate/header/main-tablet.webp"
+          srcset="uploadupdate/header/main-tablet.webp"
           type="image/webp"
         />
         <img
-          src="/uploadupdate/header/main-tablet.png"
+          src="uploadupdate/header/main-tablet.png"
           alt="автоклав купить онлайн"
         />
       </picture>
@@ -19,7 +19,7 @@
         <div class="header-main__form-video">
           <video width="0" muted autoplay controls loop style="width: 100%">
             <source
-              src="/uploadupdate/video.mp4"
+              src="uploadupdate/video.mp4"
               type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
             />
           </video>

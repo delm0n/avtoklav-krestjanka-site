@@ -113,7 +113,7 @@ export default {
     }
 
     @mixin type-bg($type) {
-      background: url("/uploadupdate/header/main." + $type) no-repeat;
+      background: url("../../uploadupdate/header/main." + $type) no-repeat;
 
       @media (max-width: 1700px) {
         background-position: -100px 0;

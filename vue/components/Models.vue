@@ -27,7 +27,7 @@
             <picture>
               <img
                 :src="
-                  '/build/images/models/' +
+                  'build/images/models/' +
                   (tenSelected ? model.ten.img : model.noten.img) +
                   (getWebp == 'webp' ? '.webp' : '.png')
                 "

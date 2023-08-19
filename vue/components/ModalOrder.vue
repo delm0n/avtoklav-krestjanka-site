@@ -71,7 +71,7 @@
           <picture>
             <img
               :src="
-                '/build/images/modal-order/' +
+                'build/images/modal-order/' +
                 getMainItem.img +
                 (getWebp == 'webp' ? '.webp' : '.png')
               "

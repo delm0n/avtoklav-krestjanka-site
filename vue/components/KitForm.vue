@@ -1,5 +1,5 @@
 <template>
-  <form action="" method="post" class="spnForm kit-form">
+  <form action="" v-on:submit.prevent method="post" class="spnForm kit-form">
     <p class="kit-form__title">Заказ</p>
 
     <droplist

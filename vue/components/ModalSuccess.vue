@@ -6,7 +6,7 @@
 
     <p class="decr" v-html="getModalSuccess[1]"></p>
 
-    <form method="post" action="">
+    <form action="" v-on:submit.prevent method="post">
       <div class="input-block">
         <label for="phone" class="order-success__label">
           <input class="input" type="text" name="phone" />

@@ -1,6 +1,11 @@
 <template>
   <div id="opt-modal" style="display: none">
-    <form method="post" class="section-send__form">
+    <form
+      action=""
+      v-on:submit.prevent
+      method="post"
+      class="section-send__form"
+    >
       <h3>Обращениие в оптовый отдел</h3>
       <div class="user-info">
         <input

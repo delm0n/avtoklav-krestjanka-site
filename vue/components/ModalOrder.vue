@@ -113,7 +113,12 @@
       <div class="modal-order__form">
         <h3 class="--mobile">Оформление заказа</h3>
 
-        <form action="" method="post" class="spnForm form-order">
+        <form
+          action=""
+          v-on:submit.prevent
+          method="post"
+          class="spnForm form-order"
+        >
           <div class="form-order__column">
             <div class="form-order__inputs">
               <input

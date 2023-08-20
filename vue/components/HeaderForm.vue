@@ -1,5 +1,5 @@
 <template>
-  <form action="" method="post" class="spnForm header-form">
+  <form action="" v-on:submit.prevent method="post" class="spnForm header-form">
     <div class="header-form__wrapper">
       <div class="header-form__inputs">
         <div class="volume-tab">

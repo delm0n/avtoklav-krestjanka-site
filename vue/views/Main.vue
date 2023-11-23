@@ -8,6 +8,8 @@
     <tinkoff-block />
     <everyday />
     <reason />
+    <made />
+    <complectation />
     <faq />
     <models
       :uniqClass="'made'"
@@ -40,6 +42,8 @@ import Models from "../components/Models.vue";
 import ModalOrder from "../components/ModalOrder.vue";
 import ModalCall from "../components/ModalCall.vue";
 import ModalSuccess from "../components/ModalSuccess.vue";
+import Made from "../components/Made.vue";
+import Complectation from "../components/Complectation.vue";
 
 export default {
   data() {
@@ -80,6 +84,8 @@ export default {
     ModalOrder,
     ModalCall,
     ModalSuccess,
+    Made,
+    Complectation,
   },
 };
 </script>
